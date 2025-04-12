@@ -1,0 +1,13 @@
+{
+  "name": "voice-based-transport-enquiry-system",
+  "version": "1.0.0",
+  "private": true,
+ "scripts": {
+  "frontend": "cd voiceenquirysystem && set NODE_OPTIONS=--openssl-legacy-provider && npm start",
+  "backend": "cd voiceenquirybackend && node server.js",
+  "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+},
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
