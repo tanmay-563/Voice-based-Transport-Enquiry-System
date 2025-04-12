@@ -44,7 +44,7 @@ componentDidMount() {
   { //Start the timer
       this.setState({busy: false});  // put true here if u want to see opening animation
   }.bind(this), 0);
-this.speak("WELCOME TO DELOS DESTINATIONS. Enjoy your Stay. Please Select what you're looking for!!");
+this.speak("WELCOME TO THE DESIRED DESTINATIONS. Enjoy your Journey. Please Select what you're looking for !!   Enjoy your day");
 }
 
     speak = (xyz) => {
