@@ -42,24 +42,6 @@ Other Components:
 
 ---
 
-## 🖼️ Demo
-
-> _(Optional)_ Add GIFs or screenshots here to show off the GUI and voice input in action.
-
----
-
-## 📦 Installation & Setup
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/your-username/Voice-based-Transport-Enquiry-System.git
-cd Voice-based-Transport-Enquiry-System
-
-![alt text](https://robohash.org/1?200x200)
-
-Project done as part of CSE302 DBMS Course
-
 Stack Used:
 * REACT JS + Node JS + MySQL + Express JS
 
