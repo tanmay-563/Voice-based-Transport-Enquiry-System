@@ -21,7 +21,7 @@ return(
 									<p onClick={() => this.props.onRouteChange('signin')} className="f3 link b blue hover-black bg-animate hover-bg-gold dim black underline pa3 pointer">Sign In </p>
 									<p onClick={() => this.props.onRouteChange('register')} className="f3 link b blue hover-black bg-animate hover-bg-gold dim black underline pa3 pointer">Register </p>
 									</nav>
-                           			<h1 className="face f3 black b--dashed bg-gold dim black pa3"> DELOS DESTINATIONS </h1>
+                           			<h1 className="face f3 black b--dashed bg-purple dim black pa3"> DESIRED DESTINATIONS </h1>
 									
 								</div>
                              )
@@ -33,38 +33,38 @@ return(
 	                                    <nav  style={{display:'flex' , justifyContent:'flex-end'}}>
 										<p onClick={() => this.props.onRouteChange('signin')} className="f3 link b blue hover-black bg-animate hover-bg-gold dim black underline pa3 pointer">Sign Out </p>
 										</nav>
-										<h1  className="face f3 black b--dashed bg-gold dim black pa3"> DELOS DESTINATIONS </h1>	
+										<h1  className="face f3 black b--dashed bg-gold dim black pa3"> DESIRED DESTINATIONS </h1>	
                                   </div>
                                )
                                :
                                 (this.props.route==='search')? (
                                                       <div>
-															<h1  className="face f3 black b--dashed bg-gold dim black pa3"> DELOS DESTINATIONS </h1>
+															<h1  className="face f3 black b--dashed bg-gold dim black pa3"> DESIRED DESTINATIONS </h1>
                               <p onClick={() => this.props.onRouteChange('t')} className="f3 link b blue hover-black bg-animate hover-bg-gold dim black underline pa3 pointer">Home Page </p>                              
                                                       </div>
                                                   ): (this.props.route==='test')?
 
                                              (
                                                 <div>
-                                                	<h1  className="face f3 black b--dashed bg-gold dim black pa3"> DELOS DESTINATIONS </h1>
+                                                	<h1  className="face f3 black b--dashed bg-gold dim black pa3"> DESIRED DESTINATIONS </h1>
                                                 </div>
                                                 
                                               ): (this.props.route==='testing')?
 
                                              (
                                                 <div>
-                                                	<h1  className="face f3 black b--dashed bg-gold dim black pa3"> DELOS DESTINATIONS </h1>
+                                                	<h1  className="face f3 black b--dashed bg-gold dim black pa3"> v DESTINATIONS </h1>
                                                 </div>
                                                 
                                               ): (this.props.route==='t')?
                                                            (
                                                               <div>  
-                                                                <h1  className="face f3 black b--dashed bg-gold dim black pa3"> DELOS DESTINATIONS </h1>  
+                                                                <h1  className="face f3 black b--dashed bg-gold dim black pa3"> DESIRED DESTINATIONS </h1>  
                                                               </div>
                                                            )  :  (this.props.route==='admin')?
                                                                    (
                                                                       <div>  
-                                                                        <h1  className="face f3 black b--dashed bg-gold dim black pa3"> DELOS DESTINATIONS </h1>  
+                                                                        <h1  className="face f3 black b--dashed bg-gold dim black pa3"> DESIRED DESTINATIONS </h1>  
                                                                         <p onClick={() => this.props.onRouteChange('signin')} className="f3 link b blue hover-black bg-animate hover-bg-gold dim black underline pa3 pointer">Go back</p>
                                                                       </div>
                                                                    ): 
@@ -72,7 +72,7 @@ return(
 
                                                                      (
                                                                       <div>  
-                                                                        <h1  className="face f3 black b--dashed bg-gold dim black pa3"> DELOS DESTINATIONS </h1>  
+                                                                        <h1  className="face f3 black b--dashed bg-gold dim black pa3"> DESIRED DESTINATIONS </h1>  
                                                                         <p onClick={() => this.props.onRouteChange('t')} className="f3 link b blue hover-black bg-animate hover-bg-gold dim black underline pa3 pointer">Go back</p>
                                                                       </div>
                                                                       )
