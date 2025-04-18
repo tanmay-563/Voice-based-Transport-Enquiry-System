@@ -1,3 +1,4 @@
+Most of them are wrong consider using your skills
 use dbms;
 create table UserTable(
 ID serial,
