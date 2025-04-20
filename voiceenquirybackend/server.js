@@ -19,23 +19,6 @@ var con = mysql.createConnection({
   database: "dbms"
 });
  
-// make to connection to the database.
-con.connect(function(err) {
-  if (err) console.log(err)
-  // if connection is successful
-  con.query("select * from UserTable where Name='trimath'", function (err, result, fields) {
-    // if any error while executing above query, throw error
-    if (err) 
-      {
-        console.log('error');
-        console.log(err)
-
-      }
-      console.log('ITS OK');
-    // if there is no error, you have the fields object
-    // iterate for all th
-  });
-});
 
 
 app.get('/',(req,res)=>{res.json('avc')});	
@@ -81,6 +64,24 @@ app.get('/BusStops',(req,res)=>{
 
 
 });	
+
+// make to connection to the database.
+con.connect(function(err) {
+  if (err) console.log(err)
+  // if connection is successful
+  con.query("select * from UserTable where Name='trimath'", function (err, result, fields) {
+    // if any error while executing above query, throw error
+    if (err) 
+      {
+        console.log('error');
+        console.log(err)
+
+      }
+      console.log('ITS OK');
+    // if there is no error, you have the fields object
+    // iterate for all th
+  });
+});
 
 app.get('/RouteId',(req,res)=>{
   
